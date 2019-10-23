@@ -57,9 +57,21 @@ Version: 1.0.0
 @import url(css/font-awesome.min.css);
 @import url(css/style.css);
 
-/* ALEXANDER LE CUSTOM COLORS */
+/* ALEXANDER LE CUSTOM CODE */
 :root {
   --xan-color1: #2c6be1;
+}
+.selfie-container{
+  text-align: center;
+}
+.selfie {
+  border-radius: 50%;
+  height: auto;
+  width: 400px;
+}
+.about-text {
+  display: flex;
+  align-items: center;;
 }
 
 
@@ -890,7 +902,7 @@ textarea:invalid {
   position: relative;
   z-index: 2;
   overflow: hidden;
-  height: 970px; }
+  height: 100vh; }
   .welcome-area .welcome-bg-img {
     position: absolute;
     width: 100%;
@@ -1601,7 +1613,8 @@ textarea.form-control {
 
 .contact-information {
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  text-align: center; }
   .contact-information .single-contact-info {
     position: relative;
     z-index: 1;
