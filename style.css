@@ -76,6 +76,12 @@ Version: 1.0.0
 .nav-brand-sub {
   font-size: .5em;
 }
+.videoPlayer {
+  width: 100%;
+  min-height: 315px;
+  height: 500px;
+}
+
 
 /* Reboot CSS */
 * {
