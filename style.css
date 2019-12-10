@@ -61,6 +61,9 @@ Version: 1.0.0
 :root {
   --xan-color1: #2c6be1;
 }
+.color-grey {
+  color: rgb(75, 75, 75);
+}
 .selfie-container{
   text-align: center;
 }
