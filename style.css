@@ -100,7 +100,9 @@ Version: 1.0.0
 .skill-row {
     padding-bottom: 100px;
 }
-
+.last-exp {
+    padding-bottom: 100px;
+}
 /* Reboot CSS */
 * {
     margin: 0;
