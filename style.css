@@ -58,9 +58,12 @@
     text-align: center;
 }
 .link-icon {
-    color: rgb(70, 70, 70);
+    color: rgb(99, 99, 99);
     font-size: 23px;
     padding: 10px;
+}
+.project-caption {
+    color: rgb(39, 39, 39);
 }
 /* Reboot CSS */
 * {
