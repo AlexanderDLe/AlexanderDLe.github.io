@@ -103,6 +103,19 @@ Version: 1.0.0
 .last-exp {
     padding-bottom: 50px;
 }
+.header-icon {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+.project-icons {
+    text-align: center;
+}
+.project-icon {
+    color: rgb(70, 70, 70);
+    font-size: 25px;
+    padding: 10px;
+}
 /* Reboot CSS */
 * {
     margin: 0;
