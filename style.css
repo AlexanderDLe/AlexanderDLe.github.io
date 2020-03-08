@@ -40,11 +40,11 @@
     margin: 0 auto;
     border: none;
 }
-.card-header,
-.card-body {
-    border: 1px solid rgba(0, 0, 0, 0.125);
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
-.card-header {
+.cardHeader {
     font-size: 1.25rem;
 }
 
@@ -64,6 +64,9 @@
 }
 .project-caption {
     color: rgb(39, 39, 39);
+}
+.card {
+    border-radius: 15px;
 }
 /* Reboot CSS */
 * {
