@@ -613,7 +613,7 @@ textarea:invalid {
     margin: 0 auto;
     margin-top: 10px;
     height: 1px;
-    width: 250px;
+    width: 50px;
 }
 .titleLine-A {
     background-color: rgba(24, 44, 97, 0.5);
