@@ -9,6 +9,9 @@
 @import url(css/style.css);
 
 /* ALEXANDER LE CSS */
+html {
+    overflow-x: hidden;
+}
 :root {
     --xan-color1: #2c6be1;
 }

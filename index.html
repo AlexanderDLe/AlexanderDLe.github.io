@@ -9,6 +9,7 @@
     <title>Alexander Le</title>
     <link rel="icon" href="img/core-img/favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,11 +18,9 @@
     </div>
     <!-- Header -->
     <header class="header-area">
-        <a href="index.html" class="nav-brand">Alexander Le
-            <br>  
-        </a>
+        <a data-aos="fade-down"  href="index.html" class="nav-brand">Alexander Le</a>
         
-        <div class="dornee-menu pl-5">
+        <div data-aos="fade-right" class="dornee-menu pl-5">
             <nav class="dorneenav">
                 <ul id="nav">
                     <li class="active"><a href="#home">Home</a></li>
@@ -53,7 +52,7 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12">
-                        <div class="welcome-content text-center wow fadeInUp" data-wow-delay="300ms">
+                        <div data-aos="fade-in" class="welcome-content text-center wow fadeInUp" data-wow-delay="300ms">
                             <h5>Hey, I'm</h5>
                             <h2>Alexander Le</h2>
                             <p>I'm a developer and I like building things. <br> I love gaming, music, &amp; my cat.
@@ -74,7 +73,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="section-title">
+                        <div data-aos="fade-in" class="section-title">
                             <!-- <h6>ABOUT</h6> -->
                             <h2>ABOUT</h2>
                             <div class="titleLine titleLine-A"></div>
@@ -86,11 +85,11 @@
             <div class="container">
                 <div class="row justify-content-center">
 
-                    <div class="col-12 col-lg-6 text-center" class="selfie-container">
+                    <div data-aos="fade-right" class="col-12 col-lg-6 text-center" class="selfie-container">
                         <img src="img/Selfie.png" class="selfie" alt="">
                     </div>
 
-                    <div class="col-12 col-lg-6 about-text">
+                    <div data-aos="fade-left" class="col-12 col-lg-6 about-text">
                         <div class="about-us-content text-left">
 
                             <h4 class="wow fadeInUp" data-wow-delay="300ms">I'm a dev who enjoys building things.</h4>
@@ -119,14 +118,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="section-title white text-center wow fadeInUp" data-wow-delay="300ms">
+                        <div data-aos="fade-in" class="section-title white text-center wow fadeInUp" data-wow-delay="300ms">
                             <h2>Skills</h2>
                             <div class="titleLine titleLine-B"></div>
                         </div>
                     </div>
                 </div>
 
-                <div class="row skill-row">
+                <div data-aos="fade-up" class="row skill-row">
                     <div class="card-deck">
 
                         <div class="card mb-3">
@@ -183,7 +182,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="section-title text-center wow fadeInUp" data-wow-delay="300ms">
+                        <div data-aos="fade-in" class="section-title text-center wow fadeInUp" data-wow-delay="300ms">
                             <h2>Experience</h2>
                             <div class="titleLine titleLine-A"></div>
                         </div>
@@ -195,48 +194,51 @@
                         <div class="experience-timeline">
                             <!-- Single Experience -->
                             <div class="single-experience wow fadeInUp" data-wow-delay="300ms">
-                                <h6 class="works-year">Nov 2018 - Nov 2019</h6>
-                                <h4 class="designation">Web Developer</h4>
-                                <h6 class="company-name">Elite Marketing Ventures</h6>
-                                <p>
-                                    - Built and maintained custom websites with HTML, CSS, PHP, JavaScript, and other
-                                    proprietary
-                                    site-building web applications such as Shopify. Each website was built to exact
-                                    specification according to the clientele until satisfaction.
-
-                                    <br> <br>
-                                    - Configured & deployed DigitalOcean web servers to host custom sites by
-                                    implementing DNS, SSL encryption, and other web hosting solutions.
-
-                                    <br> <br>
-                                    - Implemented backend server scripts to interact with various CMS APIs for various
-                                    sales functionality. This included form validation, stock availability, and database
-                                    recording.
-
-
-                                </p>
+                                <div data-aos="fade-left" >
+                                    <h6 class="works-year">Nov 2018 - Nov 2019</h6>
+                                    <h4 class="designation">Web Developer</h4>
+                                    <h6 class="company-name">Elite Marketing Ventures</h6>
+                                    <p>
+                                        - Built and maintained custom websites with HTML, CSS, PHP, JavaScript, and other
+                                        proprietary
+                                        site-building web applications such as Shopify. Each website was built to exact
+                                        specification according to the clientele until satisfaction.
+                                        
+                                        <br> <br>
+                                        - Configured & deployed DigitalOcean web servers to host custom sites by
+                                        implementing DNS, SSL encryption, and other web hosting solutions.
+                                        
+                                        <br> <br>
+                                        - Implemented backend server scripts to interact with various CMS APIs for various
+                                        sales functionality. This included form validation, stock availability, and database
+                                        recording.    
+                                    </p>
+                                </div>
                             </div>
 
                             <!-- Single Experience -->
                             <div class="single-experience wow fadeInUp" data-wow-delay="300ms">
-                                <h6 class="works-year">Jun 2018 - Nov 2018</h6>
-                                <h4 class="designation">Web Developer</h4>
-                                <h6 class="company-name">Freelancer</h6>
-                                <p>
+                                <div data-aos="fade-left" >
+                                    <h6 class="works-year">Jun 2018 - Nov 2018</h6>
+                                    <h4 class="designation">Web Developer</h4>
+                                    <h6 class="company-name">Freelancer</h6>
+                                    <p>
 
-                                    - Built responsive website custom-tailored for electronic musician VVN with React.
-                                    The site features the full catalog of the artist’s music, photos, and links to
-                                    various streaming services.
+                                        - Built responsive website custom-tailored for electronic musician VVN with React.
+                                        The site features the full catalog of the artist’s music, photos, and links to
+                                        various streaming services.
 
-                                    <br> <br>
-                                    - Developed responsive website for restaurant Lambada Tea with
-                                    React. The site featured a menu with visual features such as a dynamic image
-                                    carousel, parallax effects, etc.
-                                </p>
+                                        <br> <br>
+                                        - Developed responsive website for restaurant Lambada Tea with
+                                        React. The site featured a menu with visual features such as a dynamic image
+                                        carousel, parallax effects, etc.
+                                    </p>
+                                    </div>
                             </div>
 
                             <!-- Single Experience -->
                             <div class="single-experience wow fadeInUp last-exp" data-wow-delay="300ms">
+                                <div data-aos="fade-left" >
                                 <h6 class="works-year">2016 - 2018</h6>
                                 <h4 class="designation">Audio Engineer</h4>
                                 <h6 class="company-name">Freelancer</h6>
@@ -253,6 +255,7 @@
 
                                 </p>
                             </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -266,29 +269,31 @@
                 <div class="row">
                     <!-- Section Title -->
                     <div class="col-12">
-                        <div class="section-title white text-center wow fadeInUp" data-wow-delay="300ms">
+                        <div data-aos="fade-in" class="section-title white text-center wow fadeInUp" data-wow-delay="300ms">
                             <h2>Education</h2>
                             <div class="titleLine titleLine-B"></div>
                         </div>
                     </div>
                 </div>
-
                 <div class="row">
                     <div class="col-12">
                         <div class="education-timeline">
                             <!-- Single Experience -->
                             <div class="single-education wow fadeInUp" data-wow-delay="300ms">
-                                <div class="education-certificate">
-                                    <img src="img/WGUSeal.png" alt="">
-                                </div>
-                                <h6 class="course-completed-years">2020</h6>
-                                <h5 class="course-title">Bachelors Of Computer Science</h5>
-                                <p>Coursework: Data Structures & Algorithms, Programming & Scripting - Applications (Object Oriented C++), Discrete
+                                <div  data-aos="fade-left">
+                                    <div class="education-certificate">
+                                        <img src="img/WGUSeal.png" alt="">
+                                    </div>
+                                    <h6 class="course-completed-years">2020</h6>
+                                    <h5 class="course-title">Bachelors Of Computer Science</h5>
+                                    <p>Coursework: Data Structures & Algorithms, Programming & Scripting - Applications (Object Oriented C++), Discrete
                                     Mathematics II, Computer Architecture, Data Management (MySQL), Network & Security Foundations</p>
-                            </div>
+                                    </div>
+                                </div>
 
                             <!-- Certification -->
                             <div class="single-education wow fadeInUp" data-wow-delay="300ms">
+                                <div  data-aos="fade-left">
                                 <div class="education-certificate">
                                     <img src="img/AWS.png" alt="">
                                 </div>
@@ -296,10 +301,12 @@
                                 <h5 class="course-title">AWS Certified Developer Associate</h5>
                                 <p>Obtained AWS Developer Associate certification. The certification tested knowledge in various AWS services including but not limited to: EC2, S3, Lambdas, API Gateways, RDS, DynamoDB, CICD (CodePipeline, CodeCommit, CodeBuild, CodeDeploy, etc), IAM security concepts, BeanStalk, SQS, SNS, CloudWatch, and more.</p>
                             </div>
+                            </div>
 
 
                             <!-- Certification -->
                             <div class="single-education wow fadeInUp" data-wow-delay="300ms">
+                                <div  data-aos="fade-left">
                                 <div class="education-certificate">
                                     <img src="img/CIWLogo.png" alt="">
                                 </div>
@@ -308,10 +315,12 @@
                                 <p>Obtained a CIW certification specializing in utilizing HTML, CSS, and JavaScript.
                                     This certification also covers web servers, aligning a site with industry
                                     standards, site validation, and more.</p>
+                                </div>
                             </div>
 
                             <!-- Certification -->
                             <div class="single-education wow fadeInUp" data-wow-delay="300ms">
+                                <div data-aos="fade-left">
                                 <div class="education-certificate">
                                     <img src="img/ITIL-Logo.jpg" alt="">
                                 </div>
@@ -323,9 +332,11 @@
                                     and roles in efficient and optimal business practices.
                                 </p>
                             </div>
+                            </div>
 
                             <!-- Certification -->
                             <div class="single-education wow fadeInUp" data-wow-delay="300ms">
+                                <div  data-aos="fade-left">
                                 <div class="education-certificate">
                                     <img src="img/Comptia2.png" alt="">
                                 </div>
@@ -334,6 +345,7 @@
                                 <p>Certified for CompTIA project management. Project+ includes material on management
                                     roles and processes, project constraints & risks, communication with various
                                     stakeholders, budget and financial planning, and more.</p>
+                                </div>
                             </div>
 
 
@@ -348,7 +360,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="section-title mb-3 text-center wow fadeInUp" data-wow-delay="300ms">
+                        <div data-aos="fade-in" class="section-title mb-3 text-center wow fadeInUp" data-wow-delay="300ms">
                             <h2>Projects</h2>
                             <div class="titleLine titleLine-A"></div>
                         </div>
@@ -361,7 +373,7 @@
                 <div class="container">
                     <div class="row experience-timeline">
 
-                        <div class="about-us-content text-left py-5 single-experience">
+                        <div data-aos="fade-up" class="about-us-content text-left py-5 single-experience">
                             <h2 class="wow fadeInUp text-center project-title" >
                                 APPILITY
                             </h2>
@@ -492,7 +504,7 @@
                     <div class="row experience-timeline">
 
 
-                        <div class="about-us-content text-left py-5 single-experience">
+                        <div data-aos="fade-up" class="about-us-content text-left py-5 single-experience">
                             <h2 class="wow fadeInUp text-center" data-wow-delay="300ms">
                                 GET SET GO
                             </h2>
@@ -643,7 +655,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="section-title text-center wow fadeInUp" data-wow-delay="300ms">
+                        <div data-aos="fade-in" class="section-title text-center wow fadeInUp" data-wow-delay="300ms">
                             <h2>CONTACT</h2>
                             <div class="titleLine titleLine-A"></div>
                         </div>
@@ -655,7 +667,7 @@
 
 
                     <div class="col-12">
-                        <div class="contact-information mb-100">
+                        <div  data-aos="fade-up" class="contact-information mb-100">
                             <h4 class="mb-4 wow fadeInUp" data-wow-delay="300ms">Get In Touch</h4>
 
                             <!-- Single Contact Info -->
@@ -714,6 +726,13 @@
     <script src="js/bundle.js"></script>
     <script src="js/default/active.js"></script>
 
+    <!-- AOS - Animate On Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+      </script>
 </body>
 
 </html>
