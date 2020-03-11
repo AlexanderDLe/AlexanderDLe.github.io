@@ -12,6 +12,9 @@
 html {
     overflow-x: hidden;
 }
+body {
+    overflow-x: hidden;
+}
 :root {
     --xan-color1: #2c6be1;
 }
@@ -796,7 +799,7 @@ textarea:invalid {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .header-area {
         left: 0;
-        width: 100%;
+        width: 100vw;
         height: 70px;
         min-height: 70px;
         -webkit-box-pack: justify;
@@ -808,7 +811,7 @@ textarea:invalid {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-area {
         left: 0;
-        width: 100%;
+        width: 100vw;
         height: 70px;
         min-height: 70px;
         -webkit-box-pack: justify;
@@ -820,7 +823,7 @@ textarea:invalid {
 @media only screen and (max-width: 767px) {
     .header-area {
         left: 0;
-        width: 100%;
+        width: 100vw;
         height: 70px;
         min-height: 70px;
         -webkit-box-pack: justify;
@@ -1025,6 +1028,8 @@ textarea:invalid {
 
 .menu-hideshow {
     position: relative;
+    top: 50;
+    right: 20px;
     z-index: 1;
     display: none;
     cursor: pointer;
@@ -1147,21 +1152,25 @@ textarea:invalid {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .welcome-area {
         height: 820px;
+        min-height: 100vh;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .welcome-area {
-        height: 700px;
+        height: 820px;
+        min-height: 100vh;
     }
 }
 @media only screen and (max-width: 767px) {
     .welcome-area {
-        height: 500px;
+        height: 820px;
+        min-height: 100vh;
     }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .welcome-area {
         height: 600px;
+        min-height: 100vh;
     }
 }
 .welcome-area .welcome-content {
