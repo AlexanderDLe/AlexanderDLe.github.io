@@ -1619,9 +1619,19 @@ textarea:invalid {
 .about-us-content {
     position: relative;
     z-index: 1;
+    padding: 12px;
 }
+
 .about-us-content .row .col-6:last-child .count-text::after {
     display: none;
+}
+@media only screen and (min-width: 1365px) {
+    .about-us-content {
+        padding: 12px;
+    }
+    .portfolio-img {
+        padding: 12px;
+    }
 }
 @media only screen and (max-width: 767px) {
     .about-us-content .row .col-6:nth-child(2) .count-text::after {
